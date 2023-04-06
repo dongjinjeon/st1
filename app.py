@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from io import StringIO
-st.title('Cumulative Trend')
+st.title('Chingu login Analysis')
 
 uploaded_file = st.file_uploader("Choose a csv file including 'date' column.")
 
